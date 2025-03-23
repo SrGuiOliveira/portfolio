@@ -6,6 +6,10 @@
 
 Este é um portfólio pessoal desenvolvido com **React** e **TypeScript**, projetado para exibir informações relevantes sobre você, como repositórios do GitHub, uma seção "Sobre Mim" e links para redes sociais. A aplicação possui suporte para **troca de temas** e é **100% responsiva**, oferecendo uma experiência fluida em qualquer dispositivo.
 
+### **Acesse a Aplicação**
+A aplicação está hospedada na **Vercel**. Confira no link abaixo:
+**[Portfolio Online](https://portfolio-2y5rt3pes-guilhermes-projects-ac9f2788.vercel.app/)**
+
 ---
 
 ## **Funcionalidades**
