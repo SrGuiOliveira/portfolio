@@ -12,3 +12,11 @@ export const Lista = styled.ul`
     row-gap: 16px;
   }
 `
+export const TecnologyButton = styled.button`
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 2px;
+  color: gray;
+  cursor: pointer;
+`

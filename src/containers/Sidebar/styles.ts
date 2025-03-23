@@ -19,12 +19,18 @@ export const BotaoTema = styled.button`
   font-weight: bold;
   background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
+  &:hover {
+    filter: brightness(130%);
+  }
 `
 
 export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media (max-width: 768px) {
     margim-bottom: 40px;

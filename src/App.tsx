@@ -7,6 +7,8 @@ import Sobre from './containers/Sobre'
 import EstiloGlobal, { Container } from './styles'
 import temaLight from './themes/light'
 import temaDark from './themes/dark'
+import { Provider } from 'react-redux'
+import store from './store'
 
 function App() {
   const [usingDark, setUsingDark] = useState(false)
@@ -15,16 +17,18 @@ function App() {
     setUsingDark(!usingDark)
   }
   return (
-    <ThemeProvider theme={usingDark ? temaDark : temaLight}>
-      <EstiloGlobal />
-      <Container>
-        <Sidebar trocaTema={TrocarTema} />
-        <main>
-          <Sobre />
-          <Projetos />
-        </main>
-      </Container>
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider theme={usingDark ? temaDark : temaLight}>
+        <EstiloGlobal />
+        <Container>
+          <Sidebar trocaTema={TrocarTema} />
+          <main>
+            <Sobre />
+            <Projetos />
+          </main>
+        </Container>
+      </ThemeProvider>
+    </Provider>
   )
 }
 export default App

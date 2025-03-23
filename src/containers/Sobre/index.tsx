@@ -6,7 +6,7 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
 
-    <Paragrafo tipo="secundario">
+    <Paragrafo $tipo="secundario">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptatum
       beatae. Officia deserunt amet, minus suscipit vel culpa eos explicabo quam
       recusandae consequuntur iure inventore illo quisquam est perspiciatis in?
