@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# **Portfolio Interativo e Responsivo**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Versão do projeto](https://img.shields.io/badge/version-1.0-blue)
 
-## Available Scripts
+## **Descrição**
 
-In the project directory, you can run:
+Este é um portfólio pessoal desenvolvido com **React** e **TypeScript**, projetado para exibir informações relevantes sobre você, como repositórios do GitHub, uma seção "Sobre Mim" e links para redes sociais. A aplicação possui suporte para **troca de temas** e é **100% responsiva**, oferecendo uma experiência fluida em qualquer dispositivo.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Funcionalidades**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Seção de Repositórios do GitHub:** Listagem de repositórios consumida diretamente da API do GitHub.
+- **Seção Sobre Mim:** Detalhes das suas experiências, habilidades e interesses pessoais.
+- **Redes Sociais:** Ícones clicáveis que levam para suas plataformas (GitHub, LinkedIn e Gmail).
+- **Troca de Tema:** Alterna entre temas claro e escuro de forma interativa.
+- **Design Responsivo:** Interface otimizada para dispositivos móveis, tablets e desktops.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Tecnologias Utilizadas**
 
-### `npm run build`
+As principais ferramentas e bibliotecas empregadas no projeto incluem:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React 19.0:** Desenvolvimento da interface do usuário.
+- **TypeScript:** Superset do JavaScript que adiciona tipagem estática.
+- **Redux Toolkit:** Gerenciamento eficiente de estado e integração com a API do GitHub.
+- **Styled-components:** Estilização dinâmica com suporte a temas.
+- **AJV:** Validação de dados.
+- **Ferramentas de qualidade de código:** ESLint e Prettier para manter padrões consistentes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Como Executar**
 
-### `npm run eject`
+### **Pré-requisitos**
+- Node.js (>=16.x)
+- npm ou yarn instalados.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Passos para Instalação**
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SrGuiOliveira/portfolio.git
