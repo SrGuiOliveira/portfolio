@@ -1,5 +1,6 @@
 import Avatar from '../../components/Avatar'
 import Paragrafo from '../../components/Paragrafo'
+import SocialMedia from '../../components/SocialMedia'
 
 import { Descricao, NomeUsuario, BotaoTema, SidebarContainer } from './styles'
 
@@ -18,6 +19,7 @@ const Sidebar = (props: Props) => (
       <Descricao $tipo="principal" fontSize={12}>
         Engenheiro Front-End
       </Descricao>
+      <SocialMedia />
       <BotaoTema onClick={props.trocaTema}>Trocar tema</BotaoTema>
     </SidebarContainer>
   </aside>
