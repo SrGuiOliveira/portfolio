@@ -8,7 +8,7 @@ Este é um portfólio pessoal desenvolvido com **React** e **TypeScript**, proje
 
 ### **Acesse a Aplicação**
 A aplicação está hospedada na **Vercel**. Confira no link abaixo:
-**[Portfolio Online](https://portfolio-9jzu8g0nc-guilhermes-projects-ac9f2788.vercel.app/)**
+**[Portfolio Online](https://gso-portfolio.vercel.app/)**
 
 ---
 
