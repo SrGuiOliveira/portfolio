@@ -10,9 +10,6 @@ Este é um portfólio pessoal desenvolvido com **React** e **TypeScript**, proje
 A aplicação está hospedada na **Vercel**. Confira no link abaixo:  
 **[Portfolio Online](https://gso-portfolio.vercel.app/)**
 
-**Clone Disney+**: Confira o projeto neste link:  
-**[Clone Disney+ Online](https://clone-disneyplus-puce-beta.vercel.app/)**
-
 ---
 
 ## **Funcionalidades**
